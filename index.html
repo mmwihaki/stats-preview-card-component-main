@@ -7,6 +7,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -18,22 +21,22 @@
 </head>
 <body>
 
-  <div class="md:container mx-auto main">
+  <div class="md:container md:mx-auto main">
     <div class="text-box">
       <h1 class="text-5xl font-serif">Get insights that help your business grow.</h1>
-      <p> Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <p class="font-sans text-xl text"> Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
       <div class="column-3 stats">
-        <div class="column-2">
-          <H3 class="text-xl font-sans">10k+</H3>
-          <p>companies</p>
+        <div class="column-2 cluster">
+          <H3 class="text-2xl font-sans">10k+</H3>
+          <p class="uppercase text-xs">companies</p>
         </div>
-        <div class="column-2">
-          <H3 class="text-xl">314</H3>
-          <p>templates</p>
+        <div class="column-2 cluster">
+          <H3 class="text-2xl">314</H3>
+          <p class="uppercase text-xs">templates</p>
         </div>
-        <div class="column-2">
-          <H3 class="text-xl">12m+</H3>
-          <p>queries</p>
+        <div class="column-2 cluster">
+          <H3 class="text-2xl">12m+</H3>
+          <p class="uppercase text-xs">queries</p>
         </div>
       </div>
     </div>
