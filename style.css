@@ -95,6 +95,10 @@ p{
 
 
 @media (max-width: 375px) { 
+    body{
+        width: 100vh;
+    }
+    
     .main{
         position: absolute;
         width: 340px;
