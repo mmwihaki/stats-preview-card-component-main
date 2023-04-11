@@ -9,6 +9,7 @@ body {
     position: absolute;
     width: 1300px;
     height: 570px;
+    margin: auto;
     left: 70px;
     top: 227px;
     background: #1C1938;
@@ -82,9 +83,7 @@ p{
     width: 650px;
     height: 570px;
     left: 720px;
-    background-repeat: no-repeat;
     background-size: cover;
-
     background: linear-gradient(0deg, rgba(106, 59, 139, 0.6), rgba(106, 59, 139, 0.6)), url(images/image-header-desktop.jpg);
     border-radius: 0px 10px 10px 0px;
 }
@@ -114,7 +113,7 @@ p{
         left: 0px;
         top: 0px;
 
-        background: linear-gradient(0deg, rgba(164, 86, 207, 0.3), rgba(164, 86, 207, 0.3)), url(images/image-header-mobile.jpg);
+        background: linear-gradient(0deg, rgba(164, 86, 207, 0.3), rgba(164, 86, 207, 0.3)), url(images/image-header-mobile.jpg), no-repeat, fill;
         border-radius: 12px 12px 0px 0px;
     }
 
